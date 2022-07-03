@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(212, 45%, 89%);
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  background: hsl(0, 0%, 100%);
+  width: 100%;
+  max-width: 300px;
+  max-height: 1000px;
+  border-radius: 15px;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 3px 3px 3px hsl(220, 15%, 55%);
+}
+
+.main section {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.main section img {
+  width: 100%;
+  border-radius: 15px;
+  background-size: auto;
+}
+
+.main .info {
+  padding: 5px;
+  text-align: center;
+}
+
+.main .info h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  padding-bottom: 15px;
+}
+
+.main .info p {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  color: hsl(211, 20%, 78%);
+}
+
+footer {
+  width: 100%;
+  padding: 15px;
+}
+
+.attribution {
+  font-size: 10px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    padding: 5px;
+  }
+  .main {
+    width: 100%;
+    max-width: 200px;
+    max-height: 350px;
+  }
+
+  .main .info h1 {
+    font-size: 15px;
+  }
+  .main .info p {
+    font-size: 10px;
+  }
+}
