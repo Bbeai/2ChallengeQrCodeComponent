@@ -10,6 +10,7 @@ body {
   padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .main {
@@ -19,16 +20,15 @@ body {
   max-height: 1000px;
   border-radius: 15px;
   padding: 20px;
-  margin: auto;
-  box-shadow: 3px 3px 3px hsl(220, 15%, 55%);
+  box-shadow: 2px 2px 2px hsl(220, 15%, 55%);
 }
 
-.main section {
+.main .qr {
   width: 100%;
   margin-bottom: 15px;
 }
 
-.main section img {
+.main .qr img {
   width: 100%;
   border-radius: 15px;
   background-size: auto;
