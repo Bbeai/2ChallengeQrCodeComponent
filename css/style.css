@@ -7,9 +7,9 @@
 body {
   background: hsl(212, 45%, 89%);
   font-family: "Outfit", Arial, Helvetica, sans-serif;
-  padding: 10px 0;
+  min-height: 100vh;
+  align-items: center; /*linea de arriba (10) y esta me centran el cntenido de arriba y abajo, izda y dcha.*/
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -55,7 +55,6 @@ body {
 
 footer {
   width: 100%;
-  padding: 15px;
 }
 
 .attribution {
@@ -68,9 +67,6 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
-  body {
-    padding: 5px;
-  }
   .main {
     width: 100%;
     max-width: 200px;
